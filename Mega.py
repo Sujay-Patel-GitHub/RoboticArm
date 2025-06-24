@@ -22,6 +22,7 @@ def calculate_inverse_kinematics(x, y, z):
     # Adjust for wrist position
     x_w = R
     z_w = z - h
+    # test
 
     # Numerical search for M2 and M3
     best_M2, best_M3 = 0, 0
